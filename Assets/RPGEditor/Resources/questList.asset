@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7035f6865acb9f34084a57c87d1c9085, type: 3}
+  m_Name: questList
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 114426081966772000}
+--- !u!114 &114008585869567292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32face8300aa32b4fa8ae72c5c0cfd5e, type: 3}
+  m_Name: 'Chapitre 1 : Village de Gorons'
+  m_EditorClassIdentifier: 
+  questDescription: Voyager au travrs du village de Gorons
+  subQuest: []
+  EventOnAvailable: {fileID: 114397280565088098, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventIsAvailable: {fileID: 114445358061493362, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventOnStart: {fileID: 114749946731175886, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventIsRun: {fileID: 114062834184841534, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventOnCompleted: {fileID: 114503619552406920, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+--- !u!114 &114426081966772000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32face8300aa32b4fa8ae72c5c0cfd5e, type: 3}
+  m_Name: Main Quest
+  m_EditorClassIdentifier: 
+  questDescription: Quete Principal du jeu
+  subQuest:
+  - {fileID: 114008585869567292}
+  EventOnAvailable: {fileID: 114493834502351854, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventIsAvailable: {fileID: 114148984787606784, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventOnStart: {fileID: 114323276082641806, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventIsRun: {fileID: 114307304136989576, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}
+  EventOnCompleted: {fileID: 114386574905125208, guid: 4988a00890ec7234b93ee73f76d9932a,
+    type: 2}

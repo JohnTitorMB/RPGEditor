@@ -1,0 +1,513 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba97756a6671934cb28ef361a604f2a, type: 3}
+  m_Name: eventActionList
+  m_EditorClassIdentifier: 
+  eventList:
+  - {fileID: 114493834502351854}
+  - {fileID: 114148984787606784}
+  - {fileID: 114323276082641806}
+  - {fileID: 114307304136989576}
+  - {fileID: 114386574905125208}
+  - {fileID: 114397280565088098}
+  - {fileID: 114445358061493362}
+  - {fileID: 114749946731175886}
+  - {fileID: 114062834184841534}
+  - {fileID: 114503619552406920}
+  - {fileID: 114389945056469146}
+  - {fileID: 114725069033193810}
+  actionList:
+  - {fileID: 114684841805837634}
+  - {fileID: 114008829126430250}
+  - {fileID: 114192260137751106}
+  - {fileID: 114067426340242806}
+  - {fileID: 114023337179265372}
+  - {fileID: 114435481997445042}
+  - {fileID: 114527105564416468}
+--- !u!114 &114008829126430250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 0
+  nextAction: {fileID: 114192260137751106}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: AddDialogue
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+  str: bonjour
+--- !u!114 &114023337179265372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 1
+  nextAction: {fileID: 114435481997445042}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 'Chapitre 1 : Village de Gorons'
+    parameterfloat: 0
+    typeName: System.String
+    selected: 5
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: IsRun
+    parameterfloat: 0
+    typeName: System.String
+    selected: 3
+  - parameterInt: 0
+    parameterBool: 1
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Boolean
+    selected: 0
+  str: bonjour
+--- !u!114 &114062834184841534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114067426340242806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 0
+  nextAction: {fileID: 0}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: AddProposition
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Non
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  str: bonjour
+--- !u!114 &114148984787606784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114192260137751106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 0
+  nextAction: {fileID: 114067426340242806}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: AddProposition
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Oui
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  str: bonjour
+--- !u!114 &114307304136989576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114323276082641806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 114684841805837634}
+  parametres: []
+--- !u!114 &114386574905125208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114389945056469146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5ff2538cfa0d8409d69e67da4cc4bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 114725069033193810}
+  action: {fileID: 114023337179265372}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: RPGDialogManager
+    parameterfloat: 0
+    typeName: System.String
+    selected: 2
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: ChoiceSelectionned
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: RPGCharacter
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+--- !u!114 &114397280565088098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 114008829126430250}
+  parametres: []
+--- !u!114 &114435481997445042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 0
+  nextAction: {fileID: 0}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: AddDialogue
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  - parameterInt: 1
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+  str: bonjour
+--- !u!114 &114445358061493362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 114389945056469146}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114493834502351854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114503619552406920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []
+--- !u!114 &114527105564416468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 0
+  nextAction: {fileID: 0}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Zelda
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: AddDialogue
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  - parameterInt: 2
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+  str: bonjour
+--- !u!114 &114684841805837634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbb0c3d2bcc4594e8cadd39eef9695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionEnum: 1
+  nextAction: {fileID: 0}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 'Chapitre 1 : Village de Gorons'
+    parameterfloat: 0
+    typeName: System.String
+    selected: 5
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: IsAvailable
+    parameterfloat: 0
+    typeName: System.String
+    selected: 1
+  - parameterInt: 0
+    parameterBool: 1
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Boolean
+    selected: 0
+  str: bonjour
+--- !u!114 &114725069033193810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5ff2538cfa0d8409d69e67da4cc4bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 114527105564416468}
+  parametres:
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: RPGDialogManager
+    parameterfloat: 0
+    typeName: System.String
+    selected: 2
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: ChoiceSelectionned
+    parameterfloat: 0
+    typeName: System.String
+    selected: 0
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: Link
+    parameterfloat: 0
+    typeName: RPGCharacter
+    selected: 0
+  - parameterInt: 0
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+  - parameterInt: 1
+    parameterBool: 0
+    parameterString: 
+    parameterfloat: 0
+    typeName: System.Int32
+    selected: 0
+--- !u!114 &114749946731175886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6340f07d3c072ab45998421b4c2ff3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextEvents: {fileID: 0}
+  action: {fileID: 0}
+  parametres: []

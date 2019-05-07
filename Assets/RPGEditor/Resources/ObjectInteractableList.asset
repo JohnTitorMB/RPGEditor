@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44612e4304f85f46a6e4435cb4bfec4, type: 3}
+  m_Name: ObjectInteractableList
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 114487248153013268}
+  - {fileID: 114960008098573380}
+--- !u!114 &114487248153013268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f245f0cf9f02efe4387decc58ba75579, type: 3}
+  m_Name: RPGDialogManager
+  m_EditorClassIdentifier: 
+  type: RPGDialogueManager
+--- !u!114 &114960008098573380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f245f0cf9f02efe4387decc58ba75579, type: 3}
+  m_Name: door
+  m_EditorClassIdentifier: 
+  type: Door
